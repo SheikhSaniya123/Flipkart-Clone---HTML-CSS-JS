@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaan - Minimalist Interior Design</title>
+    <meta name="description" content="Luxury minimalist interior design furniture and home decor">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/scrollbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="assets/Shaan.png" type="image/png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/Shaan.png" alt="Shaan Logo" width="120" height="40">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#new-arrivals" class="nav-link">Collection</a></li>
+                <li><a href="#why-choose-us" class="nav-link">About Us</a></li>
+                <li><a href="#footer" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-search">
+                <div class="search-container">
+                    <input type="text" placeholder="Search..." class="search-input" aria-label="Search products">
+                    <button class="search-btn" aria-label="Search"><i class="fas fa-search"></i></button>
+                    <div class="search-dropdown"></div>
+                </div>
+            </div>
+            <div class="nav-actions">
+                <a href="#" class="cart-icon" aria-label="Shopping cart"><i class="fas fa-shopping-bag"></i><span class="cart-count">0</span></a>
+                <button class="btn-primary">Get Started</button>
+                <div class="hamburger" aria-label="Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Video Section -->
+    <section class="hero">
+        <div class="video-container">
+            <video autoplay muted loop id="hero-video" poster="images/hero-bg.jpg">
+                <source src="https://cdn.pixabay.com/video/2023/04/22/160072-820382968_large.mp4" type="video/mp4">
+                <source src="videos/hero.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+            <div class="hero-content">
+                <h1>Refined Spaces for Refined Souls</h1>
+                <p>Minimalist design that speaks volumes through quality craftsmanship and timeless aesthetics</p>
+                <button class="btn-primary btn-large">Explore Collection</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Logo Infinity Loop -->
+    <section class="brand-loop">
+        <div class="loop-container">
+            <div class="loop-track">
+                <div class="brand-logo"><img src="assets/Shaan logo.png" alt="Design Within Reach" loading="lazy"></div>
+                <div class="brand-logo"><img src="images/brands/brand2.png" alt="Muuto" loading="lazy"></div>
+                <div class="brand-logo"><img src="images/brands/brand3.png" alt="Hay" loading="lazy"></div>
+                <div class="brand-logo"><img src="images/brands/brand4.png" alt="Ferm Living" loading="lazy"></div>
+                <div class="brand-logo"><img src="images/brands/brand5.png" alt="Menu" loading="lazy"></div>
+                <div class="brand-logo"><img src="images/brands/brand1.png" alt="Design Within Reach" loading="lazy"></div>
+                <div class="brand-logo"><img src="images/brands/brand2.png" alt="Muuto" loading="lazy"></div>
+                <div class="brand-logo"><img src="images/brands/brand3.png" alt="Hay" loading="lazy"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section class="new-arrivals" id="new-arrivals">
+        <div class="section-header">
+            <h2>New Arrivals</h2>
+            <p>Discover our latest curated pieces for your home</p>
+            <div class="filter-tabs">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Furniture</button>
+                <button class="filter-btn">Lighting</button>
+                <button class="filter-btn">Decor</button>
+            </div>
+        </div>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-badge">NEW</div>
+                <div class="product-image">
+                    <img src="https://i.pinimg.com/1200x/f9/18/1f/f9181f3a8be4e6190674d9bdede41e5d.jpg" alt="Minimalist Lounge Chair" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="1">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Minimalist Lounge Chair</h3>
+                    <p class="product-price">$1,299.00</p>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-badge">NEW</div>
+                <div class="product-image">
+                    <img src="https://i.pinimg.com/736x/1e/0d/73/1e0d73c549d795ed81641f30f29f1d56.jpg" alt="Scandinavian Coffee Table" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="2">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Scandinavian Coffee Table</h3>
+                    <p class="product-price">$899.00</p>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-badge">NEW</div>
+                <div class="product-image">
+                    <img src="images/products/new3.jpg" alt="Modern Floor Lamp" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="3">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Modern Floor Lamp</h3>
+                    <p class="product-price">$349.00</p>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-badge">NEW</div>
+                <div class="product-image">
+                    <img src="images/products/new4.jpg" alt="Linen Sofa" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="4">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Linen Sofa</h3>
+                    <p class="product-price">$2,499.00</p>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-badge">NEW</div>
+                <div class="product-image">
+                    <img src="images/products/new5.jpg" alt="Ceramic Vase Set" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="5">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Ceramic Vase Set</h3>
+                    <p class="product-price">$129.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop By Categories -->
+    <section class="categories">
+        <div class="section-header">
+            <h2>Shop By Categories</h2>
+            <p>Find perfect pieces for every space in your home</p>
+        </div>
+        <div class="category-grid">
+            <a href="#" class="category-card">
+                <img src="images/categories/sofas.jpg" alt="Sofas & Living" loading="lazy">
+                <div class="category-overlay">
+                    <h3>Sofas & Living</h3>
+                </div>
+            </a>
+            <a href="#" class="category-card">
+                <img src="images/categories/bedroom.jpg" alt="Bedroom" loading="lazy">
+                <div class="category-overlay">
+                    <h3>Bedroom</h3>
+                </div>
+            </a>
+            <a href="#" class="category-card">
+                <img src="images/categories/dining.jpg" alt="Dining & Kitchen" loading="lazy">
+                <div class="category-overlay">
+                    <h3>Dining & Kitchen</h3>
+                </div>
+            </a>
+            <a href="#" class="category-card">
+                <img src="images/categories/storage.jpg" alt="Storage" loading="lazy">
+                <div class="category-overlay">
+                    <h3>Storage</h3>
+                </div>
+            </a>
+            <a href="#" class="category-card">
+                <img src="images/categories/study.jpg" alt="Study & Office" loading="lazy">
+                <div class="category-overlay">
+                    <h3>Study & Office</h3>
+                </div>
+            </a>
+            <a href="#" class="category-card">
+                <img src="images/categories/mattresses.jpg" alt="Mattresses" loading="lazy">
+                <div class="category-overlay">
+                    <h3>Mattresses</h3>
+                </div>
+            </a>
+            <a href="#" class="category-card">
+                <img src="images/categories/decor.jpg" alt="Décor" loading="lazy">
+                <div class="category-overlay">
+                    <h3>Décor</h3>
+                </div>
+            </a>
+            <a href="#" class="category-card">
+                <img src="images/categories/lamps.jpg" alt="Lamps & Lighting" loading="lazy">
+                <div class="category-overlay">
+                    <h3>Lamps & Lighting</h3>
+                </div>
+            </a>
+            <a href="#" class="category-card">
+                <img src="images/categories/furnishings.jpg" alt="Furnishings" loading="lazy">
+                <div class="category-overlay">
+                    <h3>Furnishings</h3>
+                </div>
+            </a>
+            <a href="#" class="category-card">
+                <img src="images/categories/outdoor.jpg" alt="Outdoor" loading="lazy">
+                <div class="category-overlay">
+                    <h3>Outdoor</h3>
+                </div>
+            </a>
+            <a href="#" class="category-card">
+                <img src="images/categories/sale.jpg" alt="Sale" loading="lazy">
+                <div class="category-overlay">
+                    <h3>Sale</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Flash Deals -->
+    <section class="flash-deals">
+        <div class="section-header dark">
+            <h2>Flash Deals</h2>
+            <p>Limited time offers on selected items</p>
+            <div class="countdown">
+                <span id="days">00</span>d :
+                <span id="hours">00</span>h :
+                <span id="minutes">00</span>m :
+                <span id="seconds">00</span>s
+            </div>
+        </div>
+        <div class="deal-grid">
+            <!-- Deal 1 -->
+            <div class="deal-card">
+                <div class="deal-badge">30% OFF</div>
+                <img src="images/products/deal1.jpg" alt="Modern Coffee Table" loading="lazy">
+                <div class="deal-info">
+                    <h3>Modern Coffee Table</h3>
+                    <p class="original-price">$899.00</p>
+                    <p class="deal-price">$629.30</p>
+                    <button class="btn-outline">View Deal</button>
+                </div>
+            </div>
+
+            <!-- Deal 2 -->
+            <div class="deal-card">
+                <div class="deal-badge">25% OFF</div>
+                <img src="images/products/deal2.jpg" alt="Leather Armchair" loading="lazy">
+                <div class="deal-info">
+                    <h3>Leather Armchair</h3>
+                    <p class="original-price">$1,199.00</p>
+                    <p class="deal-price">$899.25</p>
+                    <button class="btn-outline">View Deal</button>
+                </div>
+            </div>
+
+            <!-- Deal 3 -->
+            <div class="deal-card">
+                <div class="deal-badge">40% OFF</div>
+                <img src="images/products/deal3.jpg" alt="Pendant Light Set" loading="lazy">
+                <div class="deal-info">
+                    <h3>Pendant Light Set</h3>
+                    <p class="original-price">$499.00</p>
+                    <p class="deal-price">$299.40</p>
+                    <button class="btn-outline">View Deal</button>
+                </div>
+            </div>
+
+            <!-- Deal 4 -->
+            <div class="deal-card">
+                <div class="deal-badge">20% OFF</div>
+                <img src="images/products/deal4.jpg" alt="Wool Area Rug" loading="lazy">
+                <div class="deal-info">
+                    <h3>Wool Area Rug</h3>
+                    <p class="original-price">$599.00</p>
+                    <p class="deal-price">$479.20</p>
+                    <button class="btn-outline">View Deal</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us" id="why-choose-us">
+        <div class="section-header">
+            <h2>Why Choose Us</h2>
+            <p>What sets Shaan apart in the world of minimalist design</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="icons/craftsmanship.svg" alt="Craftsmanship icon" loading="lazy">
+                </div>
+                <h3>Artisan Craftsmanship</h3>
+                <p>Each piece is meticulously crafted by skilled artisans with generations of expertise, ensuring unparalleled attention to detail.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="icons/materials.svg" alt="Materials icon" loading="lazy">
+                </div>
+                <h3>Premium Materials</h3>
+                <p>We source only the finest sustainable materials from ethical suppliers worldwide, guaranteeing lasting quality and beauty.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="icons/design.svg" alt="Design icon" loading="lazy">
+                </div>
+                <h3>Thoughtful Design</h3>
+                <p>Every curve, angle, and material is carefully considered for both aesthetic beauty and functional harmony in your living space.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="icons/service.svg" alt="Service icon" loading="lazy">
+                </div>
+                <h3>White-Glove Service</h3>
+                <p>From initial selection to final delivery, our dedicated team provides exceptional, personalized customer care at every step.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Living Section -->
+    <section class="category-section">
+        <div class="section-header">
+            <h2>Living</h2>
+            <p>Elevate your living space with our curated collection</p>
+        </div>
+        <div class="product-grid">
+            <!-- Living 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/living1.jpg" alt="Modular Sectional Sofa" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="6">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Modular Sectional Sofa</h3>
+                    <p class="product-price">$3,299.00</p>
+                </div>
+            </div>
+
+            <!-- Living 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/living2.jpg" alt="Nested Coffee Tables" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="7">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Nested Coffee Tables</h3>
+                    <p class="product-price">$1,199.00</p>
+                </div>
+            </div>
+
+            <!-- Living 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/living3.jpg" alt="Media Console" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="8">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Media Console</h3>
+                    <p class="product-price">$1,899.00</p>
+                </div>
+            </div>
+
+            <!-- Living 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/living4.jpg" alt="Accent Chair" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="9">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Accent Chair</h3>
+                    <p class="product-price">$899.00</p>
+                </div>
+            </div>
+
+            <!-- Living 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/living5.jpg" alt="Sideboard" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="10">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Sideboard</h3>
+                    <p class="product-price">$2,199.00</p>
+                </div>
+            </div>
+
+            <!-- Living 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/living6.jpg" alt="Console Table" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="11">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Console Table</h3>
+                    <p class="product-price">$1,499.00</p>
+                </div>
+            </div>
+
+            <!-- Living 7 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/living7.jpg" alt="Lounge Chair" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="12">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Lounge Chair</h3>
+                    <p class="product-price">$1,099.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bedroom Section -->
+    <section class="category-section">
+        <div class="section-header">
+            <h2>Bedroom</h2>
+            <p>Create your perfect sanctuary of calm and comfort</p>
+        </div>
+        <div class="product-grid">
+            <!-- Bedroom 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/bedroom1.jpg" alt="Platform Bed" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="13">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Platform Bed</h3>
+                    <p class="product-price">$1,799.00</p>
+                </div>
+            </div>
+
+            <!-- Bedroom 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/bedroom2.jpg" alt="Nightstand" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="14">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Nightstand</h3>
+                    <p class="product-price">$499.00</p>
+                </div>
+            </div>
+
+            <!-- Bedroom 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/bedroom3.jpg" alt="Dresser" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="15">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Dresser</h3>
+                    <p class="product-price">$1,299.00</p>
+                </div>
+            </div>
+
+            <!-- Bedroom 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/bedroom4.jpg" alt="Armoire" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="16">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Armoire</h3>
+                    <p class="product-price">$2,499.00</p>
+                </div>
+            </div>
+
+            <!-- Bedroom 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/bedroom5.jpg" alt="Bench" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="17">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Bench</h3>
+                    <p class="product-price">$699.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dining & Kitchen Section -->
+    <section class="category-section">
+        <div class="section-header">
+            <h2>Dining & Kitchen</h2>
+            <p>Where meals become memories with beautiful, functional pieces</p>
+        </div>
+        <div class="product-grid">
+            <!-- Dining 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/dining1.jpg" alt="Dining Table" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="18">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Dining Table</h3>
+                    <p class="product-price">$1,899.00</p>
+                </div>
+            </div>
+
+            <!-- Dining 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/dining2.jpg" alt="Dining Chairs (Set of 4)" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="19">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Dining Chairs (Set of 4)</h3>
+                    <p class="product-price">$1,199.00</p>
+                </div>
+            </div>
+
+            <!-- Dining 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/dining3.jpg" alt="Bar Stools (Set of 2)" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="20">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Bar Stools (Set of 2)</h3>
+                    <p class="product-price">$799.00</p>
+                </div>
+            </div>
+
+            <!-- Dining 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/dining4.jpg" alt="Buffet Server" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="21">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Buffet Server</h3>
+                    <p class="product-price">$1,499.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Study & Office Section -->
+    <section class="category-section">
+        <div class="section-header">
+            <h2>Study & Office</h2>
+            <p>Productivity meets style in these thoughtfully designed workspaces</p>
+        </div>
+        <div class="product-grid">
+            <!-- Study 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/study1.jpg" alt="Writing Desk" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="22">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Writing Desk</h3>
+                    <p class="product-price">$1,099.00</p>
+                </div>
+            </div>
+
+            <!-- Study 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/study2.jpg" alt="Office Chair" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="23">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Office Chair</h3>
+                    <p class="product-price">$899.00</p>
+                </div>
+            </div>
+
+            <!-- Study 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/study3.jpg" alt="Bookshelf" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="24">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Bookshelf</h3>
+                    <p class="product-price">$1,299.00</p>
+                </div>
+            </div>
+
+            <!-- Study 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/study4.jpg" alt="Filing Cabinet" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="25">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Filing Cabinet</h3>
+                    <p class="product-price">$699.00</p>
+                </div>
+            </div>
+
+            <!-- Study 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/study5.jpg" alt="Side Table" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="26">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Side Table</h3>
+                    <p class="product-price">$499.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lamps & Lighting Section -->
+    <section class="category-section">
+        <div class="section-header">
+            <h2>Lamps & Lighting</h2>
+            <p>Illuminate your space with intention and style</p>
+        </div>
+        <div class="product-grid">
+            <!-- Lighting 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/lighting1.jpg" alt="Pendant Light" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="27">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Pendant Light</h3>
+                    <p class="product-price">$349.00</p>
+                </div>
+            </div>
+
+            <!-- Lighting 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/lighting2.jpg" alt="Floor Lamp" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="28">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Floor Lamp</h3>
+                    <p class="product-price">$299.00</p>
+                </div>
+            </div>
+
+            <!-- Lighting 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/lighting3.jpg" alt="Table Lamp" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="29">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Table Lamp</h3>
+                    <p class="product-price">$249.00</p>
+                </div>
+            </div>
+
+            <!-- Lighting 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/lighting4.jpg" alt="Wall Sconce" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="30">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Wall Sconce</h3>
+                    <p class="product-price">$199.00</p>
+                </div>
+            </div>
+
+            <!-- Lighting 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/lighting5.jpg" alt="Chandelier" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="31">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Chandelier</h3>
+                    <p class="product-price">$1,199.00</p>
+                </div>
+            </div>
+
+            <!-- Lighting 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/lighting6.jpg" alt="Task Lamp" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="32">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Task Lamp</h3>
+                    <p class="product-price">$179.00</p>
+                </div>
+            </div>
+
+            <!-- Lighting 7 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/lighting7.jpg" alt="Arc Floor Lamp" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="33">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Arc Floor Lamp</h3>
+                    <p class="product-price">$599.00</p>
+                </div>
+            </div>
+
+            <!-- Lighting 8 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/lighting8.jpg" alt="Cluster Pendant" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="34">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Cluster Pendant</h3>
+                    <p class="product-price">$899.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Furnishings Section -->
+    <section class="category-section">
+        <div class="section-header">
+            <h2>Furnishings</h2>
+            <p>The finishing touches that complete your space</p>
+        </div>
+        <div class="product-grid">
+            <!-- Furnishings 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/furnishings1.jpg" alt="Linen Curtains" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="35">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Linen Curtains</h3>
+                    <p class="product-price">$299.00</p>
+                </div>
+            </div>
+
+            <!-- Furnishings 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/furnishings2.jpg" alt="Throw Pillow Set" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="36">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Throw Pillow Set</h3>
+                    <p class="product-price">$149.00</p>
+                </div>
+            </div>
+
+            <!-- Furnishings 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/furnishings3.jpg" alt="Area Rug" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="37">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Area Rug</h3>
+                    <p class="product-price">$599.00</p>
+                </div>
+            </div>
+
+            <!-- Furnishings 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/furnishings4.jpg" alt="Throw Blanket" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="38">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Throw Blanket</h3>
+                    <p class="product-price">$129.00</p>
+                </div>
+            </div>
+
+            <!-- Furnishings 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/furnishings5.jpg" alt="Window Panel" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="39">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Window Panel</h3>
+                    <p class="product-price">$199.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Outdoor Section -->
+    <section class="category-section">
+        <div class="section-header">
+            <h2>Outdoor</h2>
+            <p>Bring the comfort of indoor living to your outdoor spaces</p>
+        </div>
+        <div class="product-grid">
+            <!-- Outdoor 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/outdoor1.jpg" alt="Patio Dining Set" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="40">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Patio Dining Set</h3>
+                    <p class="product-price">$2,499.00</p>
+                </div>
+            </div>
+
+            <!-- Outdoor 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/outdoor2.jpg" alt="Adirondack Chair" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="41">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Adirondack Chair</h3>
+                    <p class="product-price">$499.00</p>
+                </div>
+            </div>
+
+            <!-- Outdoor 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/outdoor3.jpg" alt="Outdoor Sofa" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="42">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Outdoor Sofa</h3>
+                    <p class="product-price">$1,799.00</p>
+                </div>
+            </div>
+
+            <!-- Outdoor 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/outdoor4.jpg" alt="Fire Pit Table" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="43">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Fire Pit Table</h3>
+                    <p class="product-price">$1,299.00</p>
+                </div>
+            </div>
+
+            <!-- Outdoor 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/outdoor5.jpg" alt="Hanging Chair" loading="lazy">
+                    <div class="product-actions">
+                        <button class="quick-view-btn" data-id="44">Quick View</button>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Hanging Chair</h3>
+                    <p class="product-price">$699.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section class="subscribe">
+        <div class="subscribe-container">
+            <div class="subscribe-content">
+                <h2>Stay Connected</h2>
+                <p>Get curated design stories, new arrivals, and exclusive offers delivered to your inbox</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn-primary">Join Now</button>
+                </form>
+                <div class="subscribe-success" style="display: none;">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Thank you for subscribing!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About Shaan</h3>
+                    <p>Crafted with intention. Styled for you.</p>
+                    <p>We believe in minimalist design that enhances daily living through thoughtful craftsmanship and enduring materials.</p>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-amex"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-apple-pay"></i>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#new-arrivals">Collections</a></li>
+                        <li><a href="#why-choose-us">About Us</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Showrooms</a></li>
+                        <li><a href="#">Design Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Trade Program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for design inspiration and exclusive offers</p>
+                    <form class="footer-subscribe">
+                        <input type="email" placeholder="Email address">
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <img src="assets/Shaan logo.png" alt="Shaan Logo" width="100" height="34">
+                </div>
+                <div class="footer-legal">
+                    <p>&copy; 2025 Shaan Minimalist Interiors. All rights reserved.</p>
+                    <div class="legal-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Shipping Policy</a>
+                        <a href="#">Accessibility</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Quick View Modal -->
+    <div class="quick-view-modal" id="quickViewModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-content">
+                <div class="modal-image">
+                    <img src="" alt="" id="modalProductImage">
+                    <div class="modal-thumbnails">
+                        <img src="" alt="Thumbnail 1" class="thumbnail active">
+                        <img src="" alt="Thumbnail 2" class="thumbnail">
+                        <img src="" alt="Thumbnail 3" class="thumbnail">
+                    </div>
+                </div>
+                <div class="modal-details">
+                    <h2 id="modalProductName"></h2>
+                    <p class="modal-price" id="modalProductPrice"></p>
+                    <div class="modal-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="review-count">(42 reviews)</span>
+                    </div>
+                    <div class="modal-description" id="modalProductDescription"></div>
+                    <div class="modal-color-selector">
+                        <h4>Color</h4>
+                        <div class="color-options">
+                            <button class="color-option" data-color="natural" style="background-color: #E0D0B8;"></button>
+                            <button class="color-option" data-color="walnut" style="background-color: #5E4238;"></button>
+                            <button class="color-option" data-color="black" style="background-color: #1A1A18;"></button>
+                        </div>
+                    </div>
+                    <div class="modal-actions">
+                        <div class="quantity-selector">
+                            <button class="quantity-btn minus">-</button>
+                            <input type="number" value="1" min="1" class="quantity-input">
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                        <button class="btn-primary add-to-cart-modal">Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="modal-specs">
+                        <h4>Details</h4>
+                        <ul id="modalProductSpecs"></ul>
+                    </div>
+                    <div class="modal-shipping">
+                        <i class="fas fa-truck"></i>
+                        <p>Free shipping on orders over $999. Delivery within 5-7 business days.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="cart-close" aria-label="Close cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be added here dynamically -->
+        </div>
+        <div class="cart-summary">
+            <div class="cart-total">
+                <span>Subtotal:</span>
+                <span id="cartSubtotal">$0.00</span>
+            </div>
+            <p class="cart-shipping">Free shipping on orders over $999</p>
+            <button class="btn-primary checkout-btn">Proceed to Checkout</button>
+            <button class="btn-outline continue-shopping">Continue Shopping</button>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/quickview.js"></script>
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/infinite-loop.js"></script>
+</body>
+</html>
