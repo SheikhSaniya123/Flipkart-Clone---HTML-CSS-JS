@@ -37,3 +37,7 @@ Shaan is an ongoing full-stack e-commerce web application designed for a minimal
 
   Shaan's home page, a minimalist interior design e-commerce site, features a clean and elegant layout. It's built with HTML for structure, styles.css and animations.css for aesthetics, and JavaScript for interactive elements like the search bar, quick view, and a dynamic shopping cart.
   
+  --------||||HOME||||--------
+   ![Image Alt]()
+   ![Image Alt]()
+   ![Image Alt]()
