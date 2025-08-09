@@ -39,5 +39,5 @@ Shaan is an ongoing full-stack e-commerce web application designed for a minimal
   
   --------||||HOME||||--------
 ![Image Alt](https://github.com/SheikhSaniya123/Shaan---Minimalist-Interior-Design/blob/c4b0c61b358c2c0aae7db799d8f88a99ded68c34/assets/shots/Screenshot%202025-08-09%20094414.png)
-   ![Image Alt]()
-   ![Image Alt]()
+   ![Image Alt](https://github.com/SheikhSaniya123/Shaan---Minimalist-Interior-Design/blob/d26f712fc997f863b6494531de8e0b6410fabd94/assets/shots/Screenshot%202025-08-09%20094810.png)
+   ![Image Alt](https://github.com/SheikhSaniya123/Shaan---Minimalist-Interior-Design/blob/d26f712fc997f863b6494531de8e0b6410fabd94/assets/shots/Screenshot%202025-08-09%20094823.png)
