@@ -1,0 +1,64 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent-primary);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-hover);
+}
+
+/* Custom Scrollbar for Modal */
+.modal-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.modal-container::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+.modal-container::-webkit-scrollbar-thumb {
+    background: var(--accent-primary);
+}
+
+/* Custom Scrollbar for Cart */
+.cart-items::-webkit-scrollbar {
+    width: 4px;
+}
+
+.cart-items::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+.cart-items::-webkit-scrollbar-thumb {
+    background: var(--accent-primary);
+}
+
+/* Custom Scrollbar for Dropdowns */
+.search-dropdown::-webkit-scrollbar {
+    width: 4px;
+}
+
+.search-dropdown::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+.search-dropdown::-webkit-scrollbar-thumb {
+    background: var(--accent-primary);
+}
+
+/* Firefox scrollbar */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent-primary) var(--bg-secondary);
+}
